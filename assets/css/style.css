@@ -1,0 +1,341 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");*/
+
+.nav-buttons{
+    margin-left: 50%;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", "sans-serif" ;
+}
+
+h1{
+ font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h5{
+    font-size:1rem ;
+    font-weight: 400;
+}
+
+h6 {
+    color: #d8d8d8;
+
+}
+button{
+    font-size: 0.8rem;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    background-color: #1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+button:hover{
+    background-color: darkgoldenrod;
+}
+
+/*navbar*/
+.navbar{
+    font-size: 16px;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.36);
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 0 20px;
+    color: black;
+    transition: 0.4s ease;
+}
+
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar .navbar-nav .nav-link.active .navbar i:hover {
+    color: darkgoldenrod;
+}
+
+.navbar i{
+    font-size: 2rem;
+    padding: 0 0.7px;
+    transition: 0.4s ease;
+    /*font-weight: 500;*/
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+@media only screen and (max-width: 990px){
+    .nav-buttons{
+        margin: 10px;
+
+    }
+
+    .nav-buttons ul{
+        margin: 1rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .nav-buttons ul .fas{
+        margin: 20px 5px 10px 20px;
+    }
+}
+
+/*Home*/
+
+#home{
+    background-image: url("../images/dawid-zawila-fiu89zdeTQI-unsplash.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position-x: -20px;
+    background-position-y: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#home span{
+    color: darkgoldenrod;
+}
+
+/*New Section*/
+#new .one img
+{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#new .one{
+    position: relative;
+}
+
+#new .one .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: burlywood;
+    font-weight: bold;
+    transition: 0.4s ease;
+    opacity: 0.6;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+#new .one .details:hover{
+    background-color: white;
+}
+
+#new .one:nth-child(1) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+
+
+#new .one:nth-child(2) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#new .one:nth-child(3) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+}
+
+/*Featured section*/
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+
+}
+
+.product img{
+    transition: 0.4s all;
+}
+
+.product:hover img {
+    opacity: 0.7;
+
+}
+.product .buy-button{
+    background-color: darkgoldenrod;
+    transform: translateY(50px);
+    transition: 0.3s all;
+    opacity: 0;
+}
+
+.product:hover .buy-button{
+    transform: translateY(0px);
+    opacity: 1;
+
+}
+
+hr{
+    width: 30px;
+    height: 3px !important;
+    opacity: 1 !important;
+    background-color: darkgoldenrod;
+}
+
+.star{
+    padding: 10px 0;
+
+}
+.star i{
+    font-size: 0.9rem;
+    color: goldenrod;
+}
+
+/*banner*/
+
+#banner{
+    background-image: url("../images/dawid-zawila-fiu89zdeTQI-unsplash.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 80px ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#banner h1{
+    color: goldenrod;
+}
+#banner h4{
+    color: white;
+}
+#banner button{
+    background-color: goldenrod;
+
+}
+
+#banner button:hover{
+    background-color: black;
+}
+
+/*Footer*/
+
+footer{
+    background-color: dimgray;
+
+}
+
+footer h5{
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+footer li{
+    padding-bottom: 4px;
+}
+
+footer li a{
+    font-size: 0.8rem;
+    color: grey;
+    text-decoration: none;
+}
+
+footer li a:hover{
+    color:white;
+}
+
+footer .copyright a{
+    color:black;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    transition: 0.3s ease;
+    margin: 0 5px;
+}
+
+footer .copyright a:hover{
+    color: white;
+    background-color: goldenrod;
+}
+
+footer p{
+    color: white;
+}
+footer .copyright img{
+    width: 35%;
+}
+
+/*Single Products Page*/
+
+.small-image-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-image-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.single-product input:focus{
+    outline: none;
+}
