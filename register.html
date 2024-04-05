@@ -52,106 +52,44 @@
   </div>
 </nav>
 
-<!--Single Product Section-->
-<section class=" container single-product my-5 pt-5">
-  <div class="row mt-5">
-    <div class="col-lg-5 col-md-6 col-sm-12">
-      <img src="assets/images/clothes2.jpg" alt="" class="image-fluid w-100 pb-1" id="main-image">
-<!--      Variations-->
-      <div class="small-image-group">
-        <div class="small-image-col">
-          <img src="assets/images/clothes1.jpg" alt="" width="100%" class="small-img">
-        </div>
-        <div class="small-image-col">
-          <img src="assets/images/clothes3.jpg" alt="" width="100%" class="small-img">
-        </div>
-        <div class="small-image-col">
-          <img src="assets/images/clothes4.jpg" alt="" width="100%" class="small-img">
-        </div>
-        <div class="small-image-col">
-          <img src="assets/images/clothes2.jpg" alt="" width="100%" class="small-img">
-        </div>
+<!--Register Section-->
+<section class="my-5 py-5">
+  <div class="container text-center mt-3 pt-3">
+    <h2 class="form-weight-bold">Register</h2>
+<!--    <hr class="mx-auto">-->
+
+  </div>
+  <div class="mx-auto container">
+    <form action="" class="register-form" id="register-form">
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" name=""  class="form-control" id="registerEmail" name="registerEmail" placeholder="Email Address" required>
       </div>
-    </div>
-    <div class="col-lg-6 col-md-12 col-sm-12">
-      <h6>Women Coats</h6>
-      <h3 class="py-4">Womens Fashion</h3>
-      <h2>R500</h2>
-      <input type="number" value="1">
-      <button class="buy-button">Add To Cart</button>
-      <h4 class="mt-5 mv-5">Product details</h4>
-      <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut consequatur cupiditate, error neque nulla quidem ratione rerum vero voluptatibus!</span>
-    </div>
+      <div class="form-group">
+        <label>First Name</label>
+        <input type="text" name=""  class="form-control" id="registerFirstName" name="registerFirstName" placeholder="First Name" required>
+      </div>
+      <div class="form-group">
+        <label>Last Name</label>
+        <input type="text" name=""  class="form-control" id="registerLastName" name="registerLastName" placeholder="Last Name" required>
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" name=""  class="form-control" id="registerPassword" name="registerPassword" placeholder="Password" required>
+      </div>
+      <div class="form-group">
+        <label>Repeat Password</label>
+        <input type="password" name=""  class="form-control" id="repeatPassword" name="repeatPassword" placeholder="Repeat Password" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" class="btn" id="register-button" name="" value="Register">
+      </div>
+      <div class="form-group">
+        Already have an account?<a href="login.html" id="login-url" class="btn"> Login here</a>
+      </div>
+    </form>
   </div>
 </section>
-
-<!--related Products-->
-<section id="related-products" class="my-5 pb-5">
-  <div class="container text-center mt-5 py-5">
-    <h3>Related Products</h3>
-    <hr class="mx-auto">
-  </div>
-  <div class="row mx-auto container-fluid">
-    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-      <img src="assets/images/featured1.jpg" class="img-fluid mb-3">
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-
-      </div>
-      <h5 class="p-name">Sports Shoes</h5>
-      <h4 class="p-price">R800.00</h4>
-      <button class="buy-button">Buy Now</button>
-    </div>
-    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-      <img src="assets/images/featured2.jpg" class="img-fluid mb-3">
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-
-      </div>
-      <h5 class="p-name">Sports Bag</h5>
-      <h4 class="p-price">R800.00</h4>
-      <button class="buy-button">Buy Now</button>
-    </div>
-    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-      <img src="assets/images/featured5.jpg" class="img-fluid mb-3">
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-
-      </div>
-      <h5 class="p-name">Sports Shoes</h5>
-      <h4 class="p-price">R800.00</h4>
-      <button class="buy-button">Buy Now</button>
-    </div>
-    <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-      <img src="assets/images/featured3.jpg" class="img-fluid mb-3">
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-
-      </div>
-      <h5 class="p-name">Sports Bag</h5>
-      <h4 class="p-price">R800.00</h4>
-      <button class="buy-button">Buy Now</button>
-    </div>
-  </div>
-
-</section>
-
 
 
 
@@ -220,21 +158,5 @@
 </footer>
 <!--Bootstrap-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!--Custom Script-->
-<script>
- var mainImage = document.getElementById("main-image");
-var smallImage = document.getElementsByClassName("small-img");
-
-
-for(let i=0; i < 4; i++)
-{
-  smallImage[i].onclick = function ()
-  {
-    mainImage.src = smallImage[i].src;
-  }
-}
-
-
-</script>
 </body>
 </html>

@@ -236,7 +236,7 @@ hr{
 /*banner*/
 
 #banner{
-    background-image: url("../images/dawid-zawila-fiu89zdeTQI-unsplash.jpg");
+    background-image: url("../images/banner.jpg");
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -338,4 +338,235 @@ footer .copyright img{
 
 .single-product input:focus{
     outline: none;
+}
+
+.single-product .buy-button{
+    background-color: goldenrod;
+    opacity: 1;
+    transition: 0.4s all;
+}
+
+.single-product .buy-button:hover{
+    background-color: black;
+}
+
+/*Cart*/
+.cart table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.cart .product-info{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cart th{
+    text-align: left;
+    padding: 5px 10px;
+    color: white;
+    background-color: goldenrod;
+}
+
+.cart td{
+    padding: 10px 20px;
+
+}
+
+.cart td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.cart  td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+
+}
+
+.cart td a{
+    color: darkgoldenrod;
+}
+
+.cart .remove-button{
+    color: red;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.cart .edit{
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.cart .product-info p{
+    margin: 3px;
+
+}
+
+.cart-total {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-total table{
+    width: 100%;
+    max-width: 500px;
+    border-top: 3px solid darkgoldenrod;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+.checkout-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkout-button{
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+/*Login Form*/
+
+#login-form{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid darkgoldenrod;
+}
+
+#login-form input{
+    width: 50%;
+    margin: 5px auto;
+
+}
+
+#login-form #login-button{
+    background-color: darkgoldenrod;
+    color: white;
+
+}
+
+#login-form #register-url{
+    color: darkgoldenrod;
+}
+
+/*Register Form*/
+#register-form{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid darkgoldenrod;
+}
+
+#register-form input{
+    width: 50%;
+    margin: 5px auto;
+
+}
+
+#register-form #register-button{
+    background-color: darkgoldenrod;
+    color: white;
+
+}
+
+#register-form #login-url{
+    color: darkgoldenrod;
+}
+
+/*Account Section*/
+#account-form{
+    width: 50%;
+    margin: 35px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#account-form input{
+    margin: 5px auto;
+}
+
+#account-form #change-password-button{
+    color: white;
+    background-color: darkgoldenrod;
+}
+
+.account-info #order-button,#logout-button
+{
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+/*Order Section*/
+
+.order table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order .product-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order th{
+    text-align: left;
+    padding: 5px 10px;
+    color: white;
+    background-color: darkgoldenrod;
+}
+
+.order td{
+    padding: 10px 20px;
+}
+
+.order img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+
+}
+
+/*Checkout*/
+
+.checkout-form .checkout-small-element{
+   display: inline-block;
+    width: 48%;
+    margin: 10px auto;
+}
+
+.checkout-form .checkout-large-element{
+    width: 95%;
+}
+
+.checkout-form .checkout-button-container{
+    margin: 10px;
+    text-align: right;
+    margin-right: 40px;
+
+}
+
+.checkout-form #checkoutButton{
+    color: white;
+    background-color: darkgoldenrod;
+}
+
+/*Contact Section*/
+#contact span{
+    color: darkgoldenrod;
 }

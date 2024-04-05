@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <!--    Custom Stylesheet-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--    Bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--    Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!--Nav Bar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top py-3">
+    <div class="container">
+        <img src="assets/images/logo.png" alt="" class="logo">
+        <a class="navbar-brand" href="#">MacDee's</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-buttons" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <i class="fas fa-shopping-bag cart" onclick="window.location.href='cart.html';"></i>
+                    <i class="fas fa-user account" onclick="window.location.href='account.html';"></i>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<!--Checkout-->
+<section class="my-5 py-5">
+    <div class="container text-center mt-3 pt-3">
+        <h2 class="form-weight-bold">Checkout</h2>
+        <!--    <hr class="mx-auto">-->
+
+    </div>
+    <div class="mx-auto container">
+        <form action="" class="checkout-form" id="checkout-form">
+            <div class="form-group checkout-small-element">
+<!--                <label>Name</label>-->
+                <input type="text" name=""  class="form-control" id="checkoutName" name="checkoutName" placeholder="Name" required>
+            </div>
+            <div class="form-group checkout-small-element">
+<!--                <label>Email</label>-->
+                <input type="text" name=""  class="form-control" id="checkoutEmail" name="checkoutEmail" placeholder="Email" required>
+            </div>
+            <div class="form-group checkout-small-element">
+<!--                <label>Phone</label>-->
+                <input type="number" name=""  class="form-control" id="checkoutPhone" name="checkoutPhone" placeholder="Phone" required>
+            </div>
+            <div class="form-group checkout-small-element">
+<!--                <label>City</label>-->
+                <input type="text" name=""  class="form-control" id="checkoutCity" name="checkoutCity" placeholder="City" required>
+            </div>
+
+            <div class="form-group checkout-large-element">
+<!--                <label>Address</label>-->
+                <input type="text" name=""  class="form-control" id="checkoutAddress" name="checkoutAddress" placeholder="Address" required>
+            </div>
+
+            <div class="form-group checkout-button-container">
+                <input type="submit" class="btn" id="checkoutButton" name="" value="Checkout" class="checkout-button">
+            </div>
+        </form>
+    </div>
+</section>
+
+
+
+<!--Footer-->
+<footer class="mt-5 py-5">
+    <div class="row container mx-auto pt-5">
+        <div class="footer 1 col-lg-3 col-md-6 col-sm-12">
+            <img src="assets/images/logo.png" alt="" class="logo">
+            <p class="pt-3">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="footer 1 col-lg-3 col-md-6 col-sm-12">
+            <h5 class="pb-2">Featured</h5>
+            <ul class="text-uppercase">
+                <li><a href="">men</a></li>
+                <li><a href="">women</a></li>
+                <li><a href="">boys</a></li>
+                <li><a href="">girls</a></li>
+                <li><a href="">new arrivals</a></li>
+                <li><a href="">clothes</a></li>
+            </ul>
+        </div>
+        <div class="footer 1 col-lg-3 col-md-6 col-sm-12">
+            <h5 class="pb-2">Contact Us</h5>
+            <div class="">
+                <h6 class="text-uppercase">Address</h6>
+                <p>Lorem2   </p>
+            </div>
+            <div class="">
+                <h6 class="text-uppercase">Phone</h6>
+                <p>012 345 6789 </p>
+            </div>
+            <div class="">
+                <h6 class="text-uppercase">Email</h6>
+                <p>info@email.com </p>
+            </div>
+        </div>
+        <div class="footer 1 col-lg-3 col-md-6 col-sm-12">
+            <h5 class="pb-5">Instagram</h5>
+            <div class="row">
+                <img src="assets/images/footer1.jpg" alt="" class="image-fluid w-25 h-100 m-2">
+                <img src="assets/images/footer1.jpg" alt="" class="image-fluid w-25 h-100 m-2">
+                <img src="assets/images/footer1.jpg" alt="" class="image-fluid w-25 h-100 m-2">
+                <img src="assets/images/footer1.jpg" alt="" class="image-fluid w-25 h-100 m-2">
+                <img src="assets/images/footer1.jpg" alt="" class="image-fluid w-25 h-100 m-2">
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright mt-5">
+        <div class="row container mx-auto">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <img src="assets/images/payment.png" alt="">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4 text-nowrap mb-2">
+                <p>Copyright Lorem ipsum dolor sit amet. </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Bootstrap-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
